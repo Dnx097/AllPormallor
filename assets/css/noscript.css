@@ -1,0 +1,6 @@
+/* Banner */
+
+	body.is-preload #banner:after {
+		opacity: 0.85;
+	}
+
