@@ -1096,6 +1096,9 @@ html {
 	  margin-bottom: 0;
   }
   
+  .a-color {
+	  color: var(--ColorFooter);
+  }
   
   /*Main*/
   
@@ -1272,9 +1275,18 @@ html {
   }
   
   /***************** Contacto **********************/
+
+  .Contact_div {
+	  margin-top: 60px ;
+	  background-image: url(/assets/css/imagenes/SplitShire-9315-min-1-1024x683\ \(1\)\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  }
   
   .header__contacto {
-  background-image: url(/asets/css/Imagenes/SplitShire-9315-min-1-1024x683\ \(1\)\ \(1\).jpg);
+  background-image: url(/assets/css/imagenes/SplitShire-9315-min-1-1024x683\ \(1\)\ \(1\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -1362,4 +1374,10 @@ html {
   .primary, .fit {
 	  padding: 1rem;
 	  margin-top: 1rem;
+  }
+
+  @media (min-width: 768px) {
+	  .button-alone {
+		  max-width: 40%;
+	  }
   }
